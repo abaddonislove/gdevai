@@ -1,0 +1,497 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1691799413301360, "dur":29576, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413330946, "dur":102, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413331121, "dur":394, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413331540, "dur":10822, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413342368, "dur":316090, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413658460, "dur":274, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413658803, "dur":756, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413659713, "dur":1766, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691799413332056, "dur":10350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691799413342408, "dur":1741, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691799413344149, "dur":6729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691799413351153, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1691799413350888, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1691799413354584, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1691799413357620, "dur":231058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3.exe" }}
+,{ "pid":12345, "tid":1, "ts":1691799413589670, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/ee/eea4b03f96b25fadfec0a9982c2a8d42.vis" }}
+,{ "pid":12345, "tid":1, "ts":1691799413591925, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/eb/ebdeccd5022b42cb1f35de574c673f9a.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1691799413592888, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e9/e99c249fe1f7e9aec450cee918a39132.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1691799413596677, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d6/d693e0a2a58000e10a20ab24fccaf62f.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1691799413597561, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d6/d693e0a2a58000e10a20ab24fccaf62f.caw" }}
+,{ "pid":12345, "tid":1, "ts":1691799413598388, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d5/d5eaaa72154614b4f32b81a67c713040.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1691799413599841, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d2/d23d3b5943dc92609b57e05b93f2d5a4.caw" }}
+,{ "pid":12345, "tid":1, "ts":1691799413600809, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d1/d115c52fe0fbcb2bfeb1717f145185a7.iws.sse" }}
+,{ "pid":12345, "tid":1, "ts":1691799413601804, "dur":5827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/cd/cd8f56d16b9c20a236beb663d90823fc.rsc.sse" }}
+,{ "pid":12345, "tid":1, "ts":1691799413607657, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/9b/9bbbf71a6f92d423d015b1f9a89ef313.caw" }}
+,{ "pid":12345, "tid":1, "ts":1691799413611517, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/81/81c9b9c6a6509732fc84f90aee201db8.caw" }}
+,{ "pid":12345, "tid":1, "ts":1691799413613209, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/5b/5b31ef030b7759e07e83475d9c8d82eb.caw" }}
+,{ "pid":12345, "tid":1, "ts":1691799413614685, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/49/49bac38748c506435a255d77a6786c5b.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1691799413617365, "dur":13200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/46/4672dea732d120d9ca42f567ca594232.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1691799413630703, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/22/221ec70f8fcba607dc275e120ed6e85b.vis" }}
+,{ "pid":12345, "tid":1, "ts":1691799413633186, "dur":12268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1e9f24898c6ed3dc9bc21e1b16b25e48.vis" }}
+,{ "pid":12345, "tid":1, "ts":1691799413645643, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/17/17780181cdfc9ab603893e51c2c7c8ad.vis" }}
+,{ "pid":12345, "tid":1, "ts":1691799413646497, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/17/17780181cdfc9ab603893e51c2c7c8ad.rgb" }}
+,{ "pid":12345, "tid":1, "ts":1691799413647415, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09ffbfe87d76d8855e6414c6927175f2.vis" }}
+,{ "pid":12345, "tid":1, "ts":1691799413648131, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09ffbfe87d76d8855e6414c6927175f2.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1691799413649116, "dur":4420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09f1271e313ac4b9655094cb916d839e.caw" }}
+,{ "pid":12345, "tid":1, "ts":1691799413653564, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/02/026a74cef778ac4c046b4f070ba1ae15.ecm" }}
+,{ "pid":12345, "tid":1, "ts":1691799413654636, "dur":3881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799413331975, "dur":10412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799413342389, "dur":1484, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799413343873, "dur":7033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799413350930, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691799413350907, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691799413352553, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691799413355156, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691799413355154, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691799413355285, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691799413358095, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/Souza_Milestone3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1691799413358466, "dur":6035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1691799413367737, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413369006, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413369879, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413370669, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413371729, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413373036, "dur":1234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413374303, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413375750, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413376818, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413378599, "dur":6727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413392523, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799413385466, "dur":7129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413392735, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413394234, "dur":1040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413395952, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413398638, "dur":7240, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799413397075, "dur":8812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799413405958, "dur":180840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1691799413588637, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/fd/fd2432ff85c2d77003287fd40c7d1427.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1691799413590522, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/ee/eea4b03f96b25fadfec0a9982c2a8d42.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413591801, "dur":20542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/eb/ebdeccd5022b42cb1f35de574c673f9a.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413612366, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/72/724c5c130ce4a7f5fe4ddaaf9626db2b.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1691799413613400, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/4b/4b5cd0d5480d30636c45ae9699794ed9.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1691799413614664, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/49/49bac38748c506435a255d77a6786c5b.vis" }}
+,{ "pid":12345, "tid":2, "ts":1691799413615949, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/49/49bac38748c506435a255d77a6786c5b.caw" }}
+,{ "pid":12345, "tid":2, "ts":1691799413617337, "dur":11335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/46/4672dea732d120d9ca42f567ca594232.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413628847, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/30/30b800adad4360298f08385476b9dc1f.caw" }}
+,{ "pid":12345, "tid":2, "ts":1691799413629835, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/2e/2ecac1720cbd530bccadaed67d26c72d.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1691799413631101, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/22/221ec70f8fcba607dc275e120ed6e85b.ecm" }}
+,{ "pid":12345, "tid":2, "ts":1691799413632236, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1ead1e69ada7c365249bafc1fdf304c9.rsc.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413633626, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1e9f24898c6ed3dc9bc21e1b16b25e48.rgb" }}
+,{ "pid":12345, "tid":2, "ts":1691799413635204, "dur":10178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/19/198209898adadead349024abbdc69f90.vis" }}
+,{ "pid":12345, "tid":2, "ts":1691799413645412, "dur":1238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/18/186740e05b42d4e4a7821a6dd5fe2bd0.caw" }}
+,{ "pid":12345, "tid":2, "ts":1691799413646688, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/17/17780181cdfc9ab603893e51c2c7c8ad.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413648030, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09ffbfe87d76d8855e6414c6927175f2.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413648821, "dur":4859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09f1271e313ac4b9655094cb916d839e.iws.sse" }}
+,{ "pid":12345, "tid":2, "ts":1691799413654006, "dur":4554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799413331927, "dur":10447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799413342376, "dur":8494, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799413351511, "dur":418, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1691799413351939, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691799413352336, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1691799413352670, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413352774, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413352955, "dur":280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413353236, "dur":376, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413353614, "dur":650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413354266, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413354435, "dur":451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\mo3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799413354959, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerceca6d89-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1691799413351937, "dur":3225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691799413355781, "dur":125, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799413584208, "dur":112, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799413356066, "dur":228301, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691799413592664, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691799413592664, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/Souza_Milestone3_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691799413592779, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691799413593303, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e9/e99c249fe1f7e9aec450cee918a39132.caw" }}
+,{ "pid":12345, "tid":3, "ts":1691799413594541, "dur":525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e4/e48be0acc65ff1ed72f9f89b79667cb5.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1691799413595203, "dur":11376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e4/e48be0acc65ff1ed72f9f89b79667cb5.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1691799413607005, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/9b/9bbbf71a6f92d423d015b1f9a89ef313.vis" }}
+,{ "pid":12345, "tid":3, "ts":1691799413608658, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/8e/8e2ff61de9437eca81cdbc6449fd2a64.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1691799413609727, "dur":2939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/82/82cf01f7354e885200c54adea2cfc4d2.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1691799413612866, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/5b/5b31ef030b7759e07e83475d9c8d82eb.vis" }}
+,{ "pid":12345, "tid":3, "ts":1691799413614146, "dur":11835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/4b/4b5cd0d5480d30636c45ae9699794ed9.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1691799413626127, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/34/34e776df455d8b208ab07f686152a670.vis" }}
+,{ "pid":12345, "tid":3, "ts":1691799413626634, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/34/34e776df455d8b208ab07f686152a670.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1691799413628008, "dur":16976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/30/30b800adad4360298f08385476b9dc1f.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1691799413645010, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/18/186740e05b42d4e4a7821a6dd5fe2bd0.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1691799413647407, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09ffbfe87d76d8855e6414c6927175f2.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1691799413648225, "dur":5589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09ffbfe87d76d8855e6414c6927175f2.caw" }}
+,{ "pid":12345, "tid":3, "ts":1691799413653840, "dur":776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/02/026a74cef778ac4c046b4f070ba1ae15.caw" }}
+,{ "pid":12345, "tid":3, "ts":1691799413654628, "dur":3887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413331966, "dur":10413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413342384, "dur":1596, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413343980, "dur":6902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413350940, "dur":193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1691799413350889, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1691799413353102, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1691799413355455, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691799413355454, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691799413355914, "dur":4981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1691799413361285, "dur":7110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413368480, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413370003, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413371127, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413372426, "dur":2398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413374851, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413375758, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413376962, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413378602, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413379461, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413381260, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413385469, "dur":7112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413392727, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413584703, "dur":196, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413397289, "dur":187620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799413584985, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691799413585751, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691799413589585, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/ee/eea4b03f96b25fadfec0a9982c2a8d42.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413591752, "dur":1299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/eb/ebdeccd5022b42cb1f35de574c673f9a.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413593090, "dur":5028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e9/e99c249fe1f7e9aec450cee918a39132.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1691799413598171, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d5/d5eaaa72154614b4f32b81a67c713040.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413599820, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d2/d23d3b5943dc92609b57e05b93f2d5a4.vis" }}
+,{ "pid":12345, "tid":4, "ts":1691799413600791, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d1/d115c52fe0fbcb2bfeb1717f145185a7.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413603065, "dur":132, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413603214, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/bd/bd1619d5dec1ce933f52ce60f47d5d02.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413603910, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/bd/bd1619d5dec1ce933f52ce60f47d5d02.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1691799413605404, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a3/a34b7193ac04d6d32745ca1c0dec63ef.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1691799413606378, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a1/a1401783de4cfb7f71fb1bf9bfa16f8d.caw" }}
+,{ "pid":12345, "tid":4, "ts":1691799413607479, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/9b/9bbbf71a6f92d423d015b1f9a89ef313.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1691799413608554, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/8e/8e2ff61de9437eca81cdbc6449fd2a64.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413610259, "dur":327, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799413609615, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/82/82cf01f7354e885200c54adea2cfc4d2.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413610965, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/81/81c9b9c6a6509732fc84f90aee201db8.vis" }}
+,{ "pid":12345, "tid":4, "ts":1691799413612088, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/72/724c5c130ce4a7f5fe4ddaaf9626db2b.vis" }}
+,{ "pid":12345, "tid":4, "ts":1691799413613033, "dur":6177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/5b/5b31ef030b7759e07e83475d9c8d82eb.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413619236, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/45/4503cc3bde23777b1ff9735370c737d9.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413620102, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/44/4442035c3bc0af3c9a93ab6a8a6a2552.vis" }}
+,{ "pid":12345, "tid":4, "ts":1691799413620597, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/44/4442035c3bc0af3c9a93ab6a8a6a2552.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413621100, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/44/4442035c3bc0af3c9a93ab6a8a6a2552.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1691799413622599, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/42/42fdc80731f594a827f0acd02462cdf9.rgb" }}
+,{ "pid":12345, "tid":4, "ts":1691799413623265, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/42/42fdc80731f594a827f0acd02462cdf9.ecm" }}
+,{ "pid":12345, "tid":4, "ts":1691799413623955, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/42/42fdc80731f594a827f0acd02462cdf9.caw" }}
+,{ "pid":12345, "tid":4, "ts":1691799413624531, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/36/367c4ddfe4e5d120cd205102dd9ffbe8.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413625468, "dur":448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/36/367c4ddfe4e5d120cd205102dd9ffbe8.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413625939, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/36/367c4ddfe4e5d120cd205102dd9ffbe8.caw" }}
+,{ "pid":12345, "tid":4, "ts":1691799413626495, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/34/34e776df455d8b208ab07f686152a670.rsc.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413627395, "dur":567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/34/34e776df455d8b208ab07f686152a670.caw" }}
+,{ "pid":12345, "tid":4, "ts":1691799413627998, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/30/30b800adad4360298f08385476b9dc1f.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413629461, "dur":25009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/2e/2ecac1720cbd530bccadaed67d26c72d.iws.sse" }}
+,{ "pid":12345, "tid":4, "ts":1691799413654486, "dur":3990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799413332008, "dur":10385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799413342397, "dur":1520, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799413343917, "dur":6978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799413350915, "dur":224, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1691799413350896, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1691799413353807, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1691799413355271, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1691799413355951, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1691799413357298, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413357296, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413357508, "dur":6123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413363725, "dur":4167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413367991, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413369138, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413373624, "dur":12814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413386465, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413389079, "dur":6737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413397575, "dur":8045, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799413396163, "dur":9548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413405862, "dur":179862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799413585824, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1691799413589533, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/ee/eea4b03f96b25fadfec0a9982c2a8d42.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413592221, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/eb/ebdeccd5022b42cb1f35de574c673f9a.caw" }}
+,{ "pid":12345, "tid":5, "ts":1691799413592933, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e9/e99c249fe1f7e9aec450cee918a39132.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413596024, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d6/d693e0a2a58000e10a20ab24fccaf62f.vis" }}
+,{ "pid":12345, "tid":5, "ts":1691799413596756, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d6/d693e0a2a58000e10a20ab24fccaf62f.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413597527, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d6/d693e0a2a58000e10a20ab24fccaf62f.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1691799413598420, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d5/d5eaaa72154614b4f32b81a67c713040.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413599766, "dur":1151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d2/d23d3b5943dc92609b57e05b93f2d5a4.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413600975, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799413601045, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d1/d115c52fe0fbcb2bfeb1717f145185a7.ecm" }}
+,{ "pid":12345, "tid":5, "ts":1691799413602114, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/cd/cd8f56d16b9c20a236beb663d90823fc.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413603102, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/bd/bd1619d5dec1ce933f52ce60f47d5d02.vis" }}
+,{ "pid":12345, "tid":5, "ts":1691799413603952, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/bd/bd1619d5dec1ce933f52ce60f47d5d02.caw" }}
+,{ "pid":12345, "tid":5, "ts":1691799413604936, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a3/a34b7193ac04d6d32745ca1c0dec63ef.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413606226, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a1/a1401783de4cfb7f71fb1bf9bfa16f8d.rgb" }}
+,{ "pid":12345, "tid":5, "ts":1691799413607413, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/9b/9bbbf71a6f92d423d015b1f9a89ef313.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413608656, "dur":10096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/8e/8e2ff61de9437eca81cdbc6449fd2a64.iws.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413618788, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/45/4503cc3bde23777b1ff9735370c737d9.rsc.sse" }}
+,{ "pid":12345, "tid":5, "ts":1691799413619787, "dur":38517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/45/4503cc3bde23777b1ff9735370c737d9.caw" }}
+,{ "pid":12345, "tid":6, "ts":1691799413332042, "dur":10357, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799413342402, "dur":1388, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799413343790, "dur":7122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799413350913, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1691799413352727, "dur":2219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1691799413355011, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799413355009, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799413355236, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799413356286, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799413356284, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799413356391, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799413357541, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413357538, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413358680, "dur":25868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413384615, "dur":8339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413393106, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413396719, "dur":8997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413405820, "dur":179094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799413584983, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1691799413588796, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/fd/fd2432ff85c2d77003287fd40c7d1427.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413590551, "dur":9704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/ee/eea4b03f96b25fadfec0a9982c2a8d42.caw" }}
+,{ "pid":12345, "tid":6, "ts":1691799413600417, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d1/d115c52fe0fbcb2bfeb1717f145185a7.vis" }}
+,{ "pid":12345, "tid":6, "ts":1691799413604153, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a3/a34b7193ac04d6d32745ca1c0dec63ef.vis" }}
+,{ "pid":12345, "tid":6, "ts":1691799413604836, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a3/a34b7193ac04d6d32745ca1c0dec63ef.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1691799413605618, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a1/a1401783de4cfb7f71fb1bf9bfa16f8d.vis" }}
+,{ "pid":12345, "tid":6, "ts":1691799413606209, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a1/a1401783de4cfb7f71fb1bf9bfa16f8d.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413607055, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/9b/9bbbf71a6f92d423d015b1f9a89ef313.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413608321, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/8e/8e2ff61de9437eca81cdbc6449fd2a64.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413609451, "dur":1389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/82/82cf01f7354e885200c54adea2cfc4d2.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413611115, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/81/81c9b9c6a6509732fc84f90aee201db8.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1691799413613806, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/4b/4b5cd0d5480d30636c45ae9699794ed9.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413615371, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/49/49bac38748c506435a255d77a6786c5b.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1691799413617143, "dur":13809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/46/4672dea732d120d9ca42f567ca594232.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1691799413631013, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/22/221ec70f8fcba607dc275e120ed6e85b.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1691799413632228, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1ead1e69ada7c365249bafc1fdf304c9.vis" }}
+,{ "pid":12345, "tid":6, "ts":1691799413632977, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1ead1e69ada7c365249bafc1fdf304c9.ecm" }}
+,{ "pid":12345, "tid":6, "ts":1691799413633781, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1e9f24898c6ed3dc9bc21e1b16b25e48.iws.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413634665, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1e9f24898c6ed3dc9bc21e1b16b25e48.caw" }}
+,{ "pid":12345, "tid":6, "ts":1691799413635423, "dur":13073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/19/198209898adadead349024abbdc69f90.rgb" }}
+,{ "pid":12345, "tid":6, "ts":1691799413648525, "dur":7481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09f1271e313ac4b9655094cb916d839e.rsc.sse" }}
+,{ "pid":12345, "tid":6, "ts":1691799413656020, "dur":2410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799413332087, "dur":10324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799413342414, "dur":1532, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799413343947, "dur":6963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799413350911, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691799413352485, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691799413355228, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691799413355341, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691799413357236, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1691799413358158, "dur":3663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1691799413361897, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413362691, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413363956, "dur":4690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413368710, "dur":5910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413374691, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413378491, "dur":6670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413385231, "dur":7563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413392863, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413397447, "dur":8131, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799413395648, "dur":9956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413584763, "dur":350, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799413405820, "dur":179328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799413585243, "dur":8214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1691799413597735, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e4/e48be0acc65ff1ed72f9f89b79667cb5.vis" }}
+,{ "pid":12345, "tid":7, "ts":1691799413599925, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d2/d23d3b5943dc92609b57e05b93f2d5a4.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413600804, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d1/d115c52fe0fbcb2bfeb1717f145185a7.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413603110, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/bd/bd1619d5dec1ce933f52ce60f47d5d02.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1691799413604104, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a3/a34b7193ac04d6d32745ca1c0dec63ef.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1691799413605439, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a3/a34b7193ac04d6d32745ca1c0dec63ef.caw" }}
+,{ "pid":12345, "tid":7, "ts":1691799413606261, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a1/a1401783de4cfb7f71fb1bf9bfa16f8d.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1691799413607316, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/9b/9bbbf71a6f92d423d015b1f9a89ef313.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413608069, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/8e/8e2ff61de9437eca81cdbc6449fd2a64.vis" }}
+,{ "pid":12345, "tid":7, "ts":1691799413608931, "dur":1072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/8e/8e2ff61de9437eca81cdbc6449fd2a64.caw" }}
+,{ "pid":12345, "tid":7, "ts":1691799413610025, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/82/82cf01f7354e885200c54adea2cfc4d2.caw" }}
+,{ "pid":12345, "tid":7, "ts":1691799413611223, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/81/81c9b9c6a6509732fc84f90aee201db8.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1691799413612053, "dur":900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/72/724c5c130ce4a7f5fe4ddaaf9626db2b.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1691799413613240, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/5b/5b31ef030b7759e07e83475d9c8d82eb.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413618597, "dur":499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/45/4503cc3bde23777b1ff9735370c737d9.vis" }}
+,{ "pid":12345, "tid":7, "ts":1691799413619117, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/45/4503cc3bde23777b1ff9735370c737d9.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413619615, "dur":578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/45/4503cc3bde23777b1ff9735370c737d9.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1691799413620239, "dur":1278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/44/4442035c3bc0af3c9a93ab6a8a6a2552.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1691799413621540, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/44/4442035c3bc0af3c9a93ab6a8a6a2552.caw" }}
+,{ "pid":12345, "tid":7, "ts":1691799413622260, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/42/42fdc80731f594a827f0acd02462cdf9.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1691799413623095, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/42/42fdc80731f594a827f0acd02462cdf9.iws.sse" }}
+,{ "pid":12345, "tid":7, "ts":1691799413624388, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/36/367c4ddfe4e5d120cd205102dd9ffbe8.vis" }}
+,{ "pid":12345, "tid":7, "ts":1691799413625306, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/36/367c4ddfe4e5d120cd205102dd9ffbe8.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413625815, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/36/367c4ddfe4e5d120cd205102dd9ffbe8.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1691799413626503, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/34/34e776df455d8b208ab07f686152a670.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413626989, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/34/34e776df455d8b208ab07f686152a670.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1691799413628097, "dur":14630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/30/30b800adad4360298f08385476b9dc1f.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413643008, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/18/186740e05b42d4e4a7821a6dd5fe2bd0.vis" }}
+,{ "pid":12345, "tid":7, "ts":1691799413643854, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/18/186740e05b42d4e4a7821a6dd5fe2bd0.rgb" }}
+,{ "pid":12345, "tid":7, "ts":1691799413646958, "dur":8637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/17/17780181cdfc9ab603893e51c2c7c8ad.caw" }}
+,{ "pid":12345, "tid":7, "ts":1691799413655608, "dur":2991, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799413332115, "dur":10301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799413342419, "dur":1319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799413343738, "dur":7154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799413350894, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1691799413353842, "dur":7354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1691799413361408, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413362784, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413367783, "dur":8115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413375961, "dur":17005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413393135, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413396535, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413396671, "dur":188145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799413584948, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1691799413588720, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/fd/fd2432ff85c2d77003287fd40c7d1427.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1691799413590542, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/ee/eea4b03f96b25fadfec0a9982c2a8d42.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1691799413591662, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/eb/ebdeccd5022b42cb1f35de574c673f9a.vis" }}
+,{ "pid":12345, "tid":8, "ts":1691799413592852, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e9/e99c249fe1f7e9aec450cee918a39132.vis" }}
+,{ "pid":12345, "tid":8, "ts":1691799413594006, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e4/e48be0acc65ff1ed72f9f89b79667cb5.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1691799413594974, "dur":593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e4/e48be0acc65ff1ed72f9f89b79667cb5.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1691799413595592, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e4/e48be0acc65ff1ed72f9f89b79667cb5.caw" }}
+,{ "pid":12345, "tid":8, "ts":1691799413596607, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d6/d693e0a2a58000e10a20ab24fccaf62f.rsc.sse" }}
+,{ "pid":12345, "tid":8, "ts":1691799413597720, "dur":817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d5/d5eaaa72154614b4f32b81a67c713040.vis" }}
+,{ "pid":12345, "tid":8, "ts":1691799413598581, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d5/d5eaaa72154614b4f32b81a67c713040.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1691799413599807, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d2/d23d3b5943dc92609b57e05b93f2d5a4.iws.sse" }}
+,{ "pid":12345, "tid":8, "ts":1691799413601503, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/cd/cd8f56d16b9c20a236beb663d90823fc.vis" }}
+,{ "pid":12345, "tid":8, "ts":1691799413602300, "dur":14488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/cd/cd8f56d16b9c20a236beb663d90823fc.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1691799413617046, "dur":31751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/46/4672dea732d120d9ca42f567ca594232.vis" }}
+,{ "pid":12345, "tid":8, "ts":1691799413648825, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09f1271e313ac4b9655094cb916d839e.ecm" }}
+,{ "pid":12345, "tid":8, "ts":1691799413653115, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/02/026a74cef778ac4c046b4f070ba1ae15.rgb" }}
+,{ "pid":12345, "tid":8, "ts":1691799413654201, "dur":4264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413332156, "dur":10266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413342425, "dur":374, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413342799, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413343118, "dur":267, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413343385, "dur":172, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413343557, "dur":7340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413350899, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1691799413352457, "dur":3013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1691799413355512, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1691799413355915, "dur":5214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1691799413361299, "dur":6598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413368131, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413370762, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413372634, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413373773, "dur":682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413374520, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413375755, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413376594, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413377540, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413378453, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413381717, "dur":3848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413385624, "dur":198780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691799413584486, "dur":298, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799413584787, "dur":3721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1691799413588830, "dur":23539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/fd/fd2432ff85c2d77003287fd40c7d1427.caw" }}
+,{ "pid":12345, "tid":9, "ts":1691799413612401, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/72/724c5c130ce4a7f5fe4ddaaf9626db2b.caw" }}
+,{ "pid":12345, "tid":9, "ts":1691799413613703, "dur":7867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/4b/4b5cd0d5480d30636c45ae9699794ed9.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1691799413622238, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/42/42fdc80731f594a827f0acd02462cdf9.vis" }}
+,{ "pid":12345, "tid":9, "ts":1691799413628209, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/30/30b800adad4360298f08385476b9dc1f.vis" }}
+,{ "pid":12345, "tid":9, "ts":1691799413631706, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/22/221ec70f8fcba607dc275e120ed6e85b.caw" }}
+,{ "pid":12345, "tid":9, "ts":1691799413632472, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1ead1e69ada7c365249bafc1fdf304c9.rgb" }}
+,{ "pid":12345, "tid":9, "ts":1691799413632989, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1ead1e69ada7c365249bafc1fdf304c9.caw" }}
+,{ "pid":12345, "tid":9, "ts":1691799413635437, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/19/198209898adadead349024abbdc69f90.iws.sse" }}
+,{ "pid":12345, "tid":9, "ts":1691799413636170, "dur":1296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/19/198209898adadead349024abbdc69f90.ecm" }}
+,{ "pid":12345, "tid":9, "ts":1691799413637493, "dur":8190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/19/198209898adadead349024abbdc69f90.caw" }}
+,{ "pid":12345, "tid":9, "ts":1691799413645803, "dur":5744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/17/17780181cdfc9ab603893e51c2c7c8ad.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1691799413651761, "dur":661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/02/026a74cef778ac4c046b4f070ba1ae15.vis" }}
+,{ "pid":12345, "tid":9, "ts":1691799413652456, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/02/026a74cef778ac4c046b4f070ba1ae15.rsc.sse" }}
+,{ "pid":12345, "tid":9, "ts":1691799413654195, "dur":4269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413332184, "dur":10244, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413342431, "dur":448, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413342880, "dur":363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413343244, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413343495, "dur":7393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413350897, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1691799413354048, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1691799413355014, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1691799413355258, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1691799413356677, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1691799413356775, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1691799413363998, "dur":8149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413372217, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413373442, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413374388, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413375354, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413376307, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413377008, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413378051, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413378848, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413379521, "dur":569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413380150, "dur":490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413380695, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413381263, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413383821, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413383899, "dur":3450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413387494, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413389277, "dur":4384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413393728, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413394831, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413395573, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413396401, "dur":880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413399204, "dur":6684, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799413397346, "dur":8551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799413405959, "dur":180529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1691799413610174, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/fd/fd2432ff85c2d77003287fd40c7d1427.vis" }}
+,{ "pid":12345, "tid":10, "ts":1691799413612086, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/72/724c5c130ce4a7f5fe4ddaaf9626db2b.rgb" }}
+,{ "pid":12345, "tid":10, "ts":1691799413613366, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/4b/4b5cd0d5480d30636c45ae9699794ed9.vis" }}
+,{ "pid":12345, "tid":10, "ts":1691799413614672, "dur":2811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/49/49bac38748c506435a255d77a6786c5b.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1691799413617510, "dur":11189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/46/4672dea732d120d9ca42f567ca594232.caw" }}
+,{ "pid":12345, "tid":10, "ts":1691799413629056, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/2e/2ecac1720cbd530bccadaed67d26c72d.vis" }}
+,{ "pid":12345, "tid":10, "ts":1691799413630000, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/2e/2ecac1720cbd530bccadaed67d26c72d.caw" }}
+,{ "pid":12345, "tid":10, "ts":1691799413631033, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/22/221ec70f8fcba607dc275e120ed6e85b.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1691799413632816, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1ead1e69ada7c365249bafc1fdf304c9.iws.sse" }}
+,{ "pid":12345, "tid":10, "ts":1691799413633513, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1e9f24898c6ed3dc9bc21e1b16b25e48.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1691799413634294, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/1e/1e9f24898c6ed3dc9bc21e1b16b25e48.ecm" }}
+,{ "pid":12345, "tid":10, "ts":1691799413635179, "dur":19686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/19/198209898adadead349024abbdc69f90.rsc.sse" }}
+,{ "pid":12345, "tid":10, "ts":1691799413654880, "dur":3688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413332204, "dur":10231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413342438, "dur":457, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413342896, "dur":505, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413343401, "dur":7476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413351018, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413350888, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413354407, "dur":30191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413384677, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413386491, "dur":712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413387268, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413389463, "dur":5432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413395030, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413397894, "dur":7842, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413396111, "dur":9637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413405857, "dur":179282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691799413585220, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1691799413610510, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799413588739, "dur":21884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/fd/fd2432ff85c2d77003287fd40c7d1427.ecm" }}
+,{ "pid":12345, "tid":11, "ts":1691799413610912, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/81/81c9b9c6a6509732fc84f90aee201db8.rsc.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413612349, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/72/724c5c130ce4a7f5fe4ddaaf9626db2b.iws.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413613153, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/5b/5b31ef030b7759e07e83475d9c8d82eb.ecm" }}
+,{ "pid":12345, "tid":11, "ts":1691799413614851, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/49/49bac38748c506435a255d77a6786c5b.iws.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413617140, "dur":11606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/46/4672dea732d120d9ca42f567ca594232.rsc.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413629005, "dur":14590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/2e/2ecac1720cbd530bccadaed67d26c72d.rsc.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413643641, "dur":3929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/18/186740e05b42d4e4a7821a6dd5fe2bd0.rsc.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413647720, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09ffbfe87d76d8855e6414c6927175f2.rgb" }}
+,{ "pid":12345, "tid":11, "ts":1691799413648303, "dur":4914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09f1271e313ac4b9655094cb916d839e.vis" }}
+,{ "pid":12345, "tid":11, "ts":1691799413653263, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/02/026a74cef778ac4c046b4f070ba1ae15.iws.sse" }}
+,{ "pid":12345, "tid":11, "ts":1691799413654513, "dur":3973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413332249, "dur":10191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413342441, "dur":373, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413342814, "dur":335, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413343150, "dur":305, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413343455, "dur":7419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413351491, "dur":249, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1691799413352094, "dur":58411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1691799413584771, "dur":364, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413410534, "dur":174610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1691799413585170, "dur":6439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1691799413591679, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/eb/ebdeccd5022b42cb1f35de574c673f9a.rsc.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413592840, "dur":6053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/e9/e99c249fe1f7e9aec450cee918a39132.rsc.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413598920, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d5/d5eaaa72154614b4f32b81a67c713040.caw" }}
+,{ "pid":12345, "tid":12, "ts":1691799413600946, "dur":81, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799413599825, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d2/d23d3b5943dc92609b57e05b93f2d5a4.ecm" }}
+,{ "pid":12345, "tid":12, "ts":1691799413601067, "dur":727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/d1/d115c52fe0fbcb2bfeb1717f145185a7.caw" }}
+,{ "pid":12345, "tid":12, "ts":1691799413601815, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/cd/cd8f56d16b9c20a236beb663d90823fc.rgb" }}
+,{ "pid":12345, "tid":12, "ts":1691799413602904, "dur":503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/cd/cd8f56d16b9c20a236beb663d90823fc.caw" }}
+,{ "pid":12345, "tid":12, "ts":1691799413603429, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/bd/bd1619d5dec1ce933f52ce60f47d5d02.iws.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413605553, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/a1/a1401783de4cfb7f71fb1bf9bfa16f8d.rsc.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413609072, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/82/82cf01f7354e885200c54adea2cfc4d2.vis" }}
+,{ "pid":12345, "tid":12, "ts":1691799413609879, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/82/82cf01f7354e885200c54adea2cfc4d2.ecm" }}
+,{ "pid":12345, "tid":12, "ts":1691799413611220, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/81/81c9b9c6a6509732fc84f90aee201db8.iws.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413613141, "dur":1291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/5b/5b31ef030b7759e07e83475d9c8d82eb.iws.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413614456, "dur":6186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/4b/4b5cd0d5480d30636c45ae9699794ed9.caw" }}
+,{ "pid":12345, "tid":12, "ts":1691799413620673, "dur":6953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/44/4442035c3bc0af3c9a93ab6a8a6a2552.iws.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413627694, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/30/30b800adad4360298f08385476b9dc1f.rsc.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413629046, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/2e/2ecac1720cbd530bccadaed67d26c72d.rgb" }}
+,{ "pid":12345, "tid":12, "ts":1691799413630746, "dur":13730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/22/221ec70f8fcba607dc275e120ed6e85b.rsc.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413644508, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/18/186740e05b42d4e4a7821a6dd5fe2bd0.iws.sse" }}
+,{ "pid":12345, "tid":12, "ts":1691799413646699, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/17/17780181cdfc9ab603893e51c2c7c8ad.ecm" }}
+,{ "pid":12345, "tid":12, "ts":1691799413648789, "dur":6321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone3/Souza_Milestone3_Data/GI/level0/09/09f1271e313ac4b9655094cb916d839e.rgb" }}
+,{ "pid":12345, "tid":12, "ts":1691799413655122, "dur":3471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799413664385, "dur":1976, "ph":"X", "name": "ProfilerWriteOutput" }
+,

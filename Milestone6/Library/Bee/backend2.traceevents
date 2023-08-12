@@ -1,0 +1,250 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1691799966345723, "dur":23847, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799966369577, "dur":71, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799966369683, "dur":357, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799966370060, "dur":3465, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799966373527, "dur":233220, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799966607056, "dur":1444, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691799966370393, "dur":3140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691799966373537, "dur":6326, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691799966380386, "dur":722, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1691799966381114, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1691799966381217, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1691799966381533, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966381610, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966381795, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966382069, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966382157, "dur":340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966382498, "dur":571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966383070, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966383164, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\gmdevai\\crowds\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691799966383517, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player7358187d-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1691799966381112, "dur":2602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1691799966383970, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691799966384319, "dur":188851, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1691799966578658, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1691799966578656, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/Souza_Milestone6_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1691799966578822, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1691799966579483, "dur":26899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799966370455, "dur":3108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799966373566, "dur":1405, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799966374971, "dur":4911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799966379883, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1691799966399002, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1691799966399913, "dur":4235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799966404228, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799966405983, "dur":321, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691799966406305, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799966407751, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799966408421, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799966409557, "dur":25661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691799966435345, "dur":139988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1691799966575347, "dur":31271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966370418, "dur":3122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966373551, "dur":1456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966375007, "dur":4872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966379881, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1691799966397958, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1691799966399148, "dur":19413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966419017, "dur":247, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966419266, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966421630, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966423319, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966424787, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966425530, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966426357, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966428676, "dur":812, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966427290, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691799966429602, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691799966429682, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1691799966431032, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1691799966432216, "dur":141464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1691799966573702, "dur":32995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799966370450, "dur":3105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799966373559, "dur":1456, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799966375016, "dur":4865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799966379907, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1691799966379884, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1691799966417118, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1691799966418761, "dur":301, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691799966418002, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799966419157, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799966420475, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799966422811, "dur":2297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799966425223, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799966427369, "dur":146162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691799966573594, "dur":32772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799966370499, "dur":3070, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799966373573, "dur":1326, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799966374900, "dur":4964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799966380503, "dur":668, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1691799966381455, "dur":10824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1691799966396201, "dur":120, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799966392322, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966396416, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966399546, "dur":4266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966403932, "dur":137, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691799966404071, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966405121, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966406590, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966408953, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966410126, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966412643, "dur":742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966413470, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966414896, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966418335, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966419522, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966422520, "dur":13097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691799966435705, "dur":138437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1691799966574157, "dur":32541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799966370522, "dur":3059, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799966373585, "dur":1538, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799966375123, "dur":4755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799966379903, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799966379879, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799966416920, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691799966418529, "dur":597, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691799966419128, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799966420489, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799966421314, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799966422669, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799966424078, "dur":149203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691799966573377, "dur":33368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799966370558, "dur":3032, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799966373595, "dur":1528, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799966375124, "dur":4766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799966379907, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1691799966379891, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1691799966381432, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1691799966383551, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691799966384667, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691799966384814, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691799966385557, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691799966385660, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691799966386538, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966386536, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966386614, "dur":6006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966392713, "dur":3475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966396341, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966397297, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966398204, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966399767, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966401225, "dur":1100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966402476, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966404624, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966406022, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966407083, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966409289, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966411095, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966411764, "dur":760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966412605, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966413383, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966414430, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966415523, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966418143, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966419462, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966422580, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691799966421041, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966422947, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691799966427436, "dur":146713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1691799966574169, "dur":32218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966370716, "dur":2884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966373605, "dur":1149, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966374755, "dur":5113, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966379922, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1691799966379875, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1691799966381745, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1691799966383314, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691799966383312, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691799966383569, "dur":9092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1691799966392734, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966393729, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966395356, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966398437, "dur":259, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966397028, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966398909, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966400113, "dur":1259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966401444, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966403333, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966404923, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966406340, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966407607, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966409005, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966410075, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966410856, "dur":4992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966415937, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966418197, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966420425, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966419296, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966420582, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966423645, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966440417, "dur":403, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691799966423970, "dur":16880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691799966441528, "dur":132645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1691799966574189, "dur":32483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799966370750, "dur":2860, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799966373614, "dur":134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799966373748, "dur":6138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691799966379888, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1691799966419792, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1691799966434587, "dur":139653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1691799966574251, "dur":32391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966370782, "dur":2940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966373722, "dur":6149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966379876, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1691799966381080, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1691799966383313, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1691799966383570, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1691799966385390, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1691799966385499, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1691799966386577, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966387816, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1691799966389894, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966394408, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966396335, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966397935, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966398954, "dur":2744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966401788, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966403807, "dur":151, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966402517, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966403998, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966405508, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966407103, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966408491, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966409146, "dur":297, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966409446, "dur":4665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966414199, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966418467, "dur":409, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966416399, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966418970, "dur":81, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966420417, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966419055, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966420589, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966421884, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966423420, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966425320, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966428120, "dur":1344, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691799966426295, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691799966429618, "dur":15212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1691799966444848, "dur":161542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799966370802, "dur":2998, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799966373801, "dur":6065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691799966379914, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1691799966379876, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1691799966380322, "dur":3788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1691799966384178, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691799966385068, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691799966385948, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691799966409750, "dur":17594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1691799966427571, "dur":178737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1691799966370834, "dur":2988, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799966373822, "dur":6054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691799966379877, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1691799966381108, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1691799966384309, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.0f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":12, "ts":1691799966384308, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1691799966384711, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1691799966387188, "dur":186289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Souza_Milestone6/Souza_Milestone6.exe" }}
+,{ "pid":12345, "tid":12, "ts":1691799966573498, "dur":33220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691799966611537, "dur":2396, "ph":"X", "name": "ProfilerWriteOutput" }
+,

@@ -1,0 +1,1520 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/gmdevai/crowds
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54219
+Successfully changed project path to: E:/gmdevai/crowds
+E:/gmdevai/crowds
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42852] Host "[IP] 192.168.254.142 [Port] 0 [Flags] 2 [Guid] 291647182 [EditorId] 291647182 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QTPTABH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [42852] Host "[IP] 192.168.254.142 [Port] 0 [Flags] 2 [Guid] 291647182 [EditorId] 291647182 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QTPTABH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 1516.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/gmdevai/crowds/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.3129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016917 seconds.
+- Loaded All Assemblies, in  0.430 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.ADB.StartServer () [0x00013] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <edae9acfb32b434e9f1e104d7ab2dc78>:0 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <4911eca47f294e18a7b3306f02701303>:0 
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.967 seconds
+Domain Reload Profiling: 5394ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (4967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4901ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4729ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\gmdevai\crowds\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\gmdevai\crowds\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.606 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 4172ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (3353ms)
+		LoadAssemblies (3106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (293ms)
+				TypeCache.ScanAssembly (278ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3109 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.7 KB). Loaded Objects now: 3578.
+Memory consumption went from 123.1 MB to 123.1 MB.
+Total: 3.212000 ms (FindLiveObjects: 0.339200 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.643000 ms  DeleteObjects: 0.150200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55806.592007 seconds.
+  path: Assets/People/Girl_2.fbx
+  artifactKey: Guid(56b0baa3aaae042b6aff80aa8e7cc807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbx using Guid(56b0baa3aaae042b6aff80aa8e7cc807) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfb202e0f8f135493b43cc8bb81af75b') in 0.195491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Top_Normal.png
+  artifactKey: Guid(b4df62abc15fa45edb350cc2e9e3d19f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Top_Normal.png using Guid(b4df62abc15fa45edb350cc2e9e3d19f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a75849ec2ff29a87bfae9f1df7ff98b2') in 0.060236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Bottom_Normal.png
+  artifactKey: Guid(e4d3d522750ff4a7987173fc8c757844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Bottom_Normal.png using Guid(e4d3d522750ff4a7987173fc8c757844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74abc8fd6f7ad157da37cbbd08437eb9') in 0.030373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Beard_Diffuse.png
+  artifactKey: Guid(1f9e34d897592431d8e8a7bec2aa8675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Beard_Diffuse.png using Guid(1f9e34d897592431d8e8a7bec2aa8675) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcadc5067bd785786708e279aee1d991') in 0.030787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Moustache_Diffuse.png
+  artifactKey: Guid(443741cf5216343a78852bb20a331d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Moustache_Diffuse.png using Guid(443741cf5216343a78852bb20a331d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f1ac9ceb661dfbaca57cf622f76be3b') in 0.028483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mon.mat
+  artifactKey: Guid(480fe7b3fa1b3784b96d60a2d3a11bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mon.mat using Guid(480fe7b3fa1b3784b96d60a2d3a11bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc0e9528f3bea9057b2a459b3fcf9537') in 0.034001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Beard_Normal.png
+  artifactKey: Guid(b9ae2df3ec6214337a9cdcf143994b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Beard_Normal.png using Guid(b9ae2df3ec6214337a9cdcf143994b96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09079145c2a76fdf0d77e688d34074a5') in 0.031813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Top_Gloss.png
+  artifactKey: Guid(d012a27762308f447867375ed7d58c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Top_Gloss.png using Guid(d012a27762308f447867375ed7d58c10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'baa036fcb5716a71974396325f5246ee') in 0.029366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Bottom_Opacity.png
+  artifactKey: Guid(baa5db10f4ef73541acd06b0d640bc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Bottom_Opacity.png using Guid(baa5db10f4ef73541acd06b0d640bc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8fa1b108d0527499d7492e450cf8a00') in 0.028272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/People/Male_2.fbx
+  artifactKey: Guid(d17591ccdd85147668b58267b3d06f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbx using Guid(d17591ccdd85147668b58267b3d06f5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd60027a59ca0b8374780c0ce4848ccf6') in 0.070352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/magnet.prefab
+  artifactKey: Guid(81dc39d846db6104594aed9795476bf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/magnet.prefab using Guid(81dc39d846db6104594aed9795476bf7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9056378ced4e552927accee043d84c5e') in 0.023581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Body_Gloss.png
+  artifactKey: Guid(ad2cbef55077b7045ae3e60129446670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Body_Gloss.png using Guid(ad2cbef55077b7045ae3e60129446670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a7af9ce0c9ff48144ab5a5fce3f2224') in 0.031169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Starter/NavMesh-NavMesh Surface.asset
+  artifactKey: Guid(ac96119f120c9f94b9f7023f7fa5f3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Starter/NavMesh-NavMesh Surface.asset using Guid(ac96119f120c9f94b9f7023f7fa5f3fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27e849a86c72ae688680760efab3c8cd') in 0.024468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Top_Diffuse.png
+  artifactKey: Guid(4ff2e9b0f084845119684c4076cfa705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Top_Diffuse.png using Guid(4ff2e9b0f084845119684c4076cfa705) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f368fa492e92ae601646afa507760d8d') in 0.028530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Girl_5.fbx
+  artifactKey: Guid(d7ff0367464744cceabbcfbc93030ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbx using Guid(d7ff0367464744cceabbcfbc93030ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '048d2e0eaf26077bbbb9121d5384beb6') in 0.073834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Male_1.fbx
+  artifactKey: Guid(7d775aa96cfc246c9b8ce7029a885938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_1.fbx using Guid(7d775aa96cfc246c9b8ce7029a885938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35072bf4671b6ff892bdef304b063c00') in 0.066927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Hat_Diffuse.png
+  artifactKey: Guid(d3d859e21f9ca4a5a89564fda8f82eaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Hat_Diffuse.png using Guid(d3d859e21f9ca4a5a89564fda8f82eaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80537a90375e8572683a78e9d99613be') in 0.028258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Girl_1.fbm/Girl_1_Bottom_Specular.png
+  artifactKey: Guid(2a197cbdbc35584419020a1e4fae4782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_1.fbm/Girl_1_Bottom_Specular.png using Guid(2a197cbdbc35584419020a1e4fae4782) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd879fa8d5c840a131036ce7fd47929ee') in 0.029821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Girl_3.fbx
+  artifactKey: Guid(24a4f034039cd4f8db3d911d9422b571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbx using Guid(24a4f034039cd4f8db3d911d9422b571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dacb15cb6fe061c2fbcf587ab69ec2a') in 0.071843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Bottom_Specular.png
+  artifactKey: Guid(60b8336df1e5b0642b88eb82bfc329b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Bottom_Specular.png using Guid(60b8336df1e5b0642b88eb82bfc329b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce36915dfb19453ade199f1326e1df64') in 0.030518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/5311628e621658f891a669c5e7578733.jpg
+  artifactKey: Guid(88fd56592cd18834383243fad88de8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/5311628e621658f891a669c5e7578733.jpg using Guid(88fd56592cd18834383243fad88de8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '120b684c5db846960c35af879d1d341c') in 0.036186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Hat_Specular.png
+  artifactKey: Guid(e195cca51618d2f48885edd560b223e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Hat_Specular.png using Guid(e195cca51618d2f48885edd560b223e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f97950fc0ff7a7362dae58539e7fc556') in 0.027116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Hair_Normal.png
+  artifactKey: Guid(dd5a4a6d659b54ad8a044cda13240aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Hair_Normal.png using Guid(dd5a4a6d659b54ad8a044cda13240aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebe4f771b0456185f898eb97018eb532') in 0.037014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/Girl_1.fbm/Girl_1_Hair_Specular.png
+  artifactKey: Guid(1c2de9b5a992ff8498b75f850cdbd84f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_1.fbm/Girl_1_Hair_Specular.png using Guid(1c2de9b5a992ff8498b75f850cdbd84f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19b4bf13d4d1007e915b88639b9212c9') in 0.029038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/aiControl.cs
+  artifactKey: Guid(3966171c02c7b624eb2ccc07c6d59e82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/aiControl.cs using Guid(3966171c02c7b624eb2ccc07c6d59e82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51e5a32141e88fae767bce40270547c1') in 0.012610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Top_Normal.png
+  artifactKey: Guid(45645826e9f334bed9675e201a396c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Top_Normal.png using Guid(45645826e9f334bed9675e201a396c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5511dcc7f45c2814f24ce704b1230809') in 0.029219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/People/Brutius.fbm/Brutius_Bottom_Specular.png
+  artifactKey: Guid(a69c2130e1924f848a175ee6664b1c01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Brutius.fbm/Brutius_Bottom_Specular.png using Guid(a69c2130e1924f848a175ee6664b1c01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a9c9289d86d926d521e5802e7040e95') in 0.029005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Beard_Specular.png
+  artifactKey: Guid(3a5ff391a8713364e8c2d2ca11fb0eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/FunkeyMonkey.fbm/FunkeyMonkey_Beard_Specular.png using Guid(3a5ff391a8713364e8c2d2ca11fb0eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0b41f8830bc623fb91193a138845160') in 0.027962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Male_3.fbx
+  artifactKey: Guid(76101ab1057434476a8453baaeadd4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbx using Guid(76101ab1057434476a8453baaeadd4a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9b9412517881a4c44e83603c315f14c') in 0.086952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Crowd.controller
+  artifactKey: Guid(488b0bbbdfba64fe09fc11cd45491b7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Crowd.controller using Guid(488b0bbbdfba64fe09fc11cd45491b7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6ca1dd2813615bd1728a35730ec8d75') in 0.025335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/People/Girl_1.fbm/Girl_1_Hair_Gloss.png
+  artifactKey: Guid(dde07ed63deb5c34390f2e0194d70e07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_1.fbm/Girl_1_Hair_Gloss.png using Guid(dde07ed63deb5c34390f2e0194d70e07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b49bd9e0da9eecace1ba59a4794f11a2') in 0.029486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.759446 seconds.
+  path: Assets/People/Girl_1.fbm/Girl_1_Shoes_Gloss.png
+  artifactKey: Guid(92349b80f0f1a5f45ae93fba4d84d771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_1.fbm/Girl_1_Shoes_Gloss.png using Guid(92349b80f0f1a5f45ae93fba4d84d771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfa40381f94280c28b36726dd546167f') in 0.032877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Body_Diffuse.png
+  artifactKey: Guid(25bae49e00a19405399db83370d3fc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Body_Diffuse.png using Guid(25bae49e00a19405399db83370d3fc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4b43df55e13706385b31562f6f4aae1') in 0.034120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Bottom_Specular.png
+  artifactKey: Guid(97219d18c6294cc49b8e0413b9aac959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Bottom_Specular.png using Guid(97219d18c6294cc49b8e0413b9aac959) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9739f427577f1f22534ef0ea3c59c8f') in 0.030947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Body_Opacity.png
+  artifactKey: Guid(d7b4f5ebdc3db3d4a8a2d9d45c361c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Body_Opacity.png using Guid(d7b4f5ebdc3db3d4a8a2d9d45c361c97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1350d93f0e9da6690b70ea21d12a8e44') in 0.031873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Hair_Specular.png
+  artifactKey: Guid(52c6e2f17b09d2946944ffd09b0dcafd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Hair_Specular.png using Guid(52c6e2f17b09d2946944ffd09b0dcafd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a26f43f5dc341c2b207f25fb3ab5ca5') in 0.030672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Body_Opacity.png
+  artifactKey: Guid(81a794d890ba61d45a264da6f16f7839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Body_Opacity.png using Guid(81a794d890ba61d45a264da6f16f7839) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fb9ea31ec5c49cb3c97e1e42c98210c') in 0.031116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Top_Gloss.png
+  artifactKey: Guid(bee449defa6e44847bd1537417b3f046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Top_Gloss.png using Guid(bee449defa6e44847bd1537417b3f046) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c3c83e4af9774a4a3e285d50f23cb14') in 0.029236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Bottom_Diffuse.png
+  artifactKey: Guid(19bb2e338da1e488fadbd2753a62bc9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Bottom_Diffuse.png using Guid(19bb2e338da1e488fadbd2753a62bc9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56c11d325f4e49bc8afe65f02cf144d4') in 0.030660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Shoes_Diffuse.png
+  artifactKey: Guid(cfb66427d313f41669d8605bc1557f2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Shoes_Diffuse.png using Guid(cfb66427d313f41669d8605bc1557f2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ec06a6b979784a034720d0a0797713') in 0.029174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Body_Opacity.png
+  artifactKey: Guid(ef1ffefe04e1034408212e214655a94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Body_Opacity.png using Guid(ef1ffefe04e1034408212e214655a94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e7b624ec0556ef7d0a94b1bf3f49c29') in 0.030862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Bottom_Diffuse.png
+  artifactKey: Guid(9c136a5b97246424f9055d5297644b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Bottom_Diffuse.png using Guid(9c136a5b97246424f9055d5297644b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8950bd1d5a254beeed9ba61eac0c2852') in 0.031505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Hat_Normal.png
+  artifactKey: Guid(71880fd6182584afea76fdc56e3ffbaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Hat_Normal.png using Guid(71880fd6182584afea76fdc56e3ffbaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e3362a4007230a438b81ed815fdbe33') in 0.032696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Body_Gloss.png
+  artifactKey: Guid(e5c4ef135f1111d41abbbbebdd6a6644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Body_Gloss.png using Guid(e5c4ef135f1111d41abbbbebdd6a6644) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '228b7e4e80dc413aea0da639e95be314') in 0.034097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Bottom_Gloss.png
+  artifactKey: Guid(734705e60dcd83e4a995807febfe2d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Bottom_Gloss.png using Guid(734705e60dcd83e4a995807febfe2d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69f52484fd21214bf4cb6f940fdcb4bd') in 0.031643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Hat_Diffuse.png
+  artifactKey: Guid(566e99b7ca97d440b897d02226a5cda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Hat_Diffuse.png using Guid(566e99b7ca97d440b897d02226a5cda3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ceb947297e6ddf8ead4d954bf501e16') in 0.035082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Bottom_Normal.png
+  artifactKey: Guid(035e48c2c14434a34a16d76b8604d9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Bottom_Normal.png using Guid(035e48c2c14434a34a16d76b8604d9b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0556be69f58e65c2140fa6330f815dcd') in 0.032196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Body_Diffuse.png
+  artifactKey: Guid(a44839d77744545a28b7f63ced69236a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Body_Diffuse.png using Guid(a44839d77744545a28b7f63ced69236a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e06b7d1a78e6caf059c4ca149c35dc87') in 0.033267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Male_1.fbm/Male_1_Top_Normal.png
+  artifactKey: Guid(ba4b5d8d6bb114cc6b9def32ed1c7879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_1.fbm/Male_1_Top_Normal.png using Guid(ba4b5d8d6bb114cc6b9def32ed1c7879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a60c466f2b84ad8271732539cc0236a4') in 0.033592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Beard_Normal.png
+  artifactKey: Guid(3a4ae6297a56841ebaee1c46633cf0b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Beard_Normal.png using Guid(3a4ae6297a56841ebaee1c46633cf0b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40ed6e0c5bfd399f8cf4de5d37027be9') in 0.033643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Beard_Specular.png
+  artifactKey: Guid(755b1eb97219c8b4e90ae2f84427c9c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Beard_Specular.png using Guid(755b1eb97219c8b4e90ae2f84427c9c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea20636262bdf5900029578dd618cef3') in 0.030607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Body_Specular.png
+  artifactKey: Guid(24062cba95910af4d9c4833841bea4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Body_Specular.png using Guid(24062cba95910af4d9c4833841bea4e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d3be2ac87543db68fce8d5ff6d8ecc9') in 0.030468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Top_Opacity.png
+  artifactKey: Guid(c40b3b411d6c1954f81a6a2bcfb5bb43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Top_Opacity.png using Guid(c40b3b411d6c1954f81a6a2bcfb5bb43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1db0504b7383d249b9c2a3d9a2f739ff') in 0.031218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Male_1.fbm/Male_1_Top_Specular.png
+  artifactKey: Guid(b54ae9ee3b6ac814c83d6f16a3fbd909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_1.fbm/Male_1_Top_Specular.png using Guid(b54ae9ee3b6ac814c83d6f16a3fbd909) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cdbf7820cfbc19b13094d3fb7ee35f7') in 0.028036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Materials/FunkeyMonkey_Shoes_Diffuse.mat
+  artifactKey: Guid(2644f0a5fda284731bfe17f76a1296a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/FunkeyMonkey_Shoes_Diffuse.mat using Guid(2644f0a5fda284731bfe17f76a1296a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fdc63bbbb7875437bbb394cf807165d') in 0.021531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Male_1.fbm/Male_1_Bottom_Specular.png
+  artifactKey: Guid(e6242337c00d5e842873deb66357d545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_1.fbm/Male_1_Bottom_Specular.png using Guid(e6242337c00d5e842873deb66357d545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25a5a78f06d77cc4f1cbb3228472f8ee') in 0.031327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Hair_Diffuse.png
+  artifactKey: Guid(1b32f434304a24842bcc7c4437b95afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Hair_Diffuse.png using Guid(1b32f434304a24842bcc7c4437b95afe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '853f351d7cb9ab5bd49e9108699be104') in 0.031495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Shoes_Normal.png
+  artifactKey: Guid(d26c0630fcc834febaa462e8687c44bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Shoes_Normal.png using Guid(d26c0630fcc834febaa462e8687c44bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb7cdf23c996a43a1fdffdd76583eead') in 0.030305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Top_Opacity.png
+  artifactKey: Guid(4e5c7c3b351a9ca4ab634bab4d83a07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Top_Opacity.png using Guid(4e5c7c3b351a9ca4ab634bab4d83a07e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66ad42b36a69d442e80503ecc66ce3b3') in 0.031597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Materials/Brutius_Bottom_Diffuse.mat
+  artifactKey: Guid(9fa817d86ac584c468d6d83f2a8c7317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Brutius_Bottom_Diffuse.mat using Guid(9fa817d86ac584c468d6d83f2a8c7317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9ff40825a850750b3b578c57cd2456a') in 0.022522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Top_Opacity.png
+  artifactKey: Guid(4333b06ed2b3cb44da566298f742b945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Top_Opacity.png using Guid(4333b06ed2b3cb44da566298f742b945) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef40537e4e73dec9619c820d454ea164') in 0.032099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Bottom_Opacity.png
+  artifactKey: Guid(d079ff20a68d12d4684e06d4d2582584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Bottom_Opacity.png using Guid(d079ff20a68d12d4684e06d4d2582584) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0abd6a3dcd561716357cdb8af318fad1') in 0.031197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Materials/Brutius_Shoes_Diffuse.mat
+  artifactKey: Guid(0807bb98a5bdd477caaf7323f4c4f32d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Brutius_Shoes_Diffuse.mat using Guid(0807bb98a5bdd477caaf7323f4c4f32d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a77795de62235c780435564b92112952') in 0.022467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Body_Gloss.png
+  artifactKey: Guid(666d844469f13464bb635a9b678a27ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Body_Gloss.png using Guid(666d844469f13464bb635a9b678a27ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '237a8217ef20dc4b31a49109cd98c944') in 0.033345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Shoes_Diffuse.png
+  artifactKey: Guid(3f80c657824e543ea8e3bbbb68eb4a81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Shoes_Diffuse.png using Guid(3f80c657824e543ea8e3bbbb68eb4a81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe3d82f72b8419880a8305511e0025be') in 0.030959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Body_Diffuse.png
+  artifactKey: Guid(8c2367292d44f458e85c0ac75fde3963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Body_Diffuse.png using Guid(8c2367292d44f458e85c0ac75fde3963) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '697021dca257df91d3b267672a2c2f50') in 0.028756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Body_Diffuse.png
+  artifactKey: Guid(81c01d9a452ee4afb9caea1056a0a3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Body_Diffuse.png using Guid(81c01d9a452ee4afb9caea1056a0a3fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e3c19f3ca024274278c5f02c36c7ada') in 0.030462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Hair_Opacity.png
+  artifactKey: Guid(37368eb3400d2a94da6d2b2abd3c7d06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Hair_Opacity.png using Guid(37368eb3400d2a94da6d2b2abd3c7d06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0b4257505b3308e9ede5bd0e623c34e') in 0.028663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Hat_Gloss.png
+  artifactKey: Guid(f37860e05cb3fd54c95c38ea89f2ca70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Hat_Gloss.png using Guid(f37860e05cb3fd54c95c38ea89f2ca70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa3f0b7dacfb793f185cfbe19029dd9f') in 0.029151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Body_Normal.png
+  artifactKey: Guid(0345709218e4b48aeaf9c09270f5416b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Body_Normal.png using Guid(0345709218e4b48aeaf9c09270f5416b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'def9547740c02b836170665b74ec860a') in 0.035523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Shoes_Opacity.png
+  artifactKey: Guid(287177e0669e9994daa0c5eb25b13f2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Shoes_Opacity.png using Guid(287177e0669e9994daa0c5eb25b13f2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '244fff1fa4bec4fd1536a53c871a717e') in 0.030608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Hair_Normal.png
+  artifactKey: Guid(e6e3c9bdc6911451ab2fa70488b5e628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Hair_Normal.png using Guid(e6e3c9bdc6911451ab2fa70488b5e628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14f05e1ae1bc63a3c238ad44fb3b7014') in 0.031360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/People/Male_1.fbm/Male_1_Body_Normal.png
+  artifactKey: Guid(cf5924f8fdfc4479e8ee73cb9ed5b312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_1.fbm/Male_1_Body_Normal.png using Guid(cf5924f8fdfc4479e8ee73cb9ed5b312) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e923484147746412b807f8e465437d3') in 0.034168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Bottom_Opacity.png
+  artifactKey: Guid(c9296a8f489aed145868ba4d443e3e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Bottom_Opacity.png using Guid(c9296a8f489aed145868ba4d443e3e5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc6d5fb090bf76882766d97c4b3697c6') in 0.032104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Hair_Opacity.png
+  artifactKey: Guid(14c9bc92fa4d8e3439bbbc3526ef4baa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Hair_Opacity.png using Guid(14c9bc92fa4d8e3439bbbc3526ef4baa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0169358b2b89708ecf9d5004db547f42') in 0.033493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Top_Specular.png
+  artifactKey: Guid(7dc8747f7a14e354ab56f870dcd54ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Top_Specular.png using Guid(7dc8747f7a14e354ab56f870dcd54ea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de75d7d7ac7e6a2ee0bb6e09c1bf8f71') in 0.030955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Bottom_Gloss.png
+  artifactKey: Guid(5ec083c73dd7f834bb1734c718f9ed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Bottom_Gloss.png using Guid(5ec083c73dd7f834bb1734c718f9ed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a47932590b1434f7fdfa2c2141ef375b') in 0.029324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Bottom_Opacity.png
+  artifactKey: Guid(caf3590d5f993a149a1fd171aec889fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Bottom_Opacity.png using Guid(caf3590d5f993a149a1fd171aec889fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8d21408f321b8ea005a371fe87fd0f4') in 0.031636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Top_Gloss.png
+  artifactKey: Guid(5b799ae098bc51a44a2775ff61634d7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Top_Gloss.png using Guid(5b799ae098bc51a44a2775ff61634d7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7456a9c85f3f50824de806ac0be604c') in 0.026513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Body_Normal.png
+  artifactKey: Guid(e4ab7c0d6098a4e72a09b0085cc1be54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Body_Normal.png using Guid(e4ab7c0d6098a4e72a09b0085cc1be54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65ab7d7aeeffce15c60f57f35dbc3948') in 0.031467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/Girl_5.fbm/Girl_5_Shoes_Specular.png
+  artifactKey: Guid(0be0c551e83a9bf4d80c1653aa87f8f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_5.fbm/Girl_5_Shoes_Specular.png using Guid(0be0c551e83a9bf4d80c1653aa87f8f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1700fbd05265d61deafe9639f8ec9b40') in 0.027576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Hair_Normal.png
+  artifactKey: Guid(ad89d503a47d84775a3e0457d9b9c3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Hair_Normal.png using Guid(ad89d503a47d84775a3e0457d9b9c3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9a653d39185dd73ce9b46a03ed12182') in 0.028974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Bottom_Normal.png
+  artifactKey: Guid(877964927f5d5476fa7a470eb37e3d67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Bottom_Normal.png using Guid(877964927f5d5476fa7a470eb37e3d67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e815c6bb93a489d7335bf84a3efe98a') in 0.030436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/People/Girl_1.fbm/Girl_1_Top_Diffuse.png
+  artifactKey: Guid(fd4b8e466db784d6dac45368101b658f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_1.fbm/Girl_1_Top_Diffuse.png using Guid(fd4b8e466db784d6dac45368101b658f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3112e61961fe8b9fe7db8b8c68fb3d3d') in 0.031030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Hair_Specular.png
+  artifactKey: Guid(da57776f7b52f7c4aa5bb56db24c01f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Hair_Specular.png using Guid(da57776f7b52f7c4aa5bb56db24c01f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd4234bc585a1200d05a9cf0a5376326') in 0.030375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Bottom_Diffuse.png
+  artifactKey: Guid(be18fdedc75684036bc973deff3395d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Bottom_Diffuse.png using Guid(be18fdedc75684036bc973deff3395d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8253b87e4a1dcc5b7916b026c2d84a59') in 0.028882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Hair_Normal.png
+  artifactKey: Guid(00b439926c0634eb7a6b4cb2b25ea5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Hair_Normal.png using Guid(00b439926c0634eb7a6b4cb2b25ea5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd86dd52da42a8fde0554b30da937067') in 0.029754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Top_Diffuse.png
+  artifactKey: Guid(934e09ca49d1648f0903e7cfadc97b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Top_Diffuse.png using Guid(934e09ca49d1648f0903e7cfadc97b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b551c746e8bcdf53b240b2443cb7c003') in 0.027665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Girl_3.fbm/Girl_3_Shoes_Gloss.png
+  artifactKey: Guid(4c37c38d071edc34c8dc472f5ab711b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_3.fbm/Girl_3_Shoes_Gloss.png using Guid(4c37c38d071edc34c8dc472f5ab711b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15fab5939e45b1ef380bd446f09ca5f6') in 0.026806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Bottom_Specular.png
+  artifactKey: Guid(2b677ed652684db4d9983aa8f4be95ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Bottom_Specular.png using Guid(2b677ed652684db4d9983aa8f4be95ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '006a8feb5c5ffbc7a261ac222b031fd4') in 0.028998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/Male_2.fbm/Male_2_Bottom_Gloss.png
+  artifactKey: Guid(6dfa779340449ba459d9d90188aa7133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_2.fbm/Male_2_Bottom_Gloss.png using Guid(6dfa779340449ba459d9d90188aa7133) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78f86a70dfe344a447850ea69ab513b6') in 0.030115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/People/Girl_2.fbm/Girl_2_Top_Gloss.png
+  artifactKey: Guid(81a0b478e03927c4d9104a7685a724a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_2.fbm/Girl_2_Top_Gloss.png using Guid(81a0b478e03927c4d9104a7685a724a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19dc9d70e399f859132f3a9f73efb7e0') in 0.026835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/Male_3.fbm/Male_3_Top_Gloss.png
+  artifactKey: Guid(d0d1a69e62ae53841b34029261963291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Male_3.fbm/Male_3_Top_Gloss.png using Guid(d0d1a69e62ae53841b34029261963291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22d8a9fa5046a7a622350cc168fbbea3') in 0.025746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Materials/Brutius_Hat_Diffuse.mat
+  artifactKey: Guid(27451b1ed9ef14400a68803c0e9183b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Brutius_Hat_Diffuse.mat using Guid(27451b1ed9ef14400a68803c0e9183b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4da1912ed9163fd95b769fcd6352cd4a') in 0.020262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Hair_Normal.png
+  artifactKey: Guid(158cedd77b7cd4493956c0d93830baee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Hair_Normal.png using Guid(158cedd77b7cd4493956c0d93830baee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19cd79124eb14037d1b60b5a065c2cc0') in 0.029385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/Materials/FunkeyMonkey_Hair_Diffuse.mat
+  artifactKey: Guid(ce27aaa2317a2400c8efb0cdde8c2117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/FunkeyMonkey_Hair_Diffuse.mat using Guid(ce27aaa2317a2400c8efb0cdde8c2117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2becde088772f913cb78e658d96a3e98') in 0.020430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Girl_4.fbm/Girl_4_Shoes_Specular.png
+  artifactKey: Guid(a05d8a0566a51fd4593b6e945e40dbff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Girl_4.fbm/Girl_4_Shoes_Specular.png using Guid(a05d8a0566a51fd4593b6e945e40dbff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14e3619c039a1b9ade0efe9a0db0ed6c') in 0.027039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.222399 seconds.
+  path: Assets/People/Materials/Girl_1_Body_Diffuse.mat
+  artifactKey: Guid(89da8f5556d134e16b15e94444de2e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_1_Body_Diffuse.mat using Guid(89da8f5556d134e16b15e94444de2e28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb64af63df59d5dda311b1422af51608') in 0.023778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Bottom_Normal.png
+  artifactKey: Guid(4bab26f1053ee4cbf8bd0e26e1ebed72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Bottom_Normal.png using Guid(4bab26f1053ee4cbf8bd0e26e1ebed72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d8c724febb32854515dcb105531e8a0') in 0.030044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/Materials/Regina_Bottom_Diffuse.mat
+  artifactKey: Guid(993a3141597404ef6812d0a91fe300a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Regina_Bottom_Diffuse.mat using Guid(993a3141597404ef6812d0a91fe300a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f12b526de23d6067b47b6488360fc163') in 0.040383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Shoes_Opacity.png
+  artifactKey: Guid(78b44074b85bc804abf304e66ab9a266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Shoes_Opacity.png using Guid(78b44074b85bc804abf304e66ab9a266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2e42256a67f36327acca6c6a05f99c3') in 0.031282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Diffuse.png
+  artifactKey: Guid(59b18e67dd8454bca97795e7c6914e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Diffuse.png using Guid(59b18e67dd8454bca97795e7c6914e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99f9d62404c2c6225d3babdfb8ddeb49') in 0.034211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Hair_Opacity.png
+  artifactKey: Guid(c81c6d5679b4f1a4386d797bde37dfa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Hair_Opacity.png using Guid(c81c6d5679b4f1a4386d797bde37dfa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f78391a7dee1ea921e5feabe608181d') in 0.030354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Shoes_Gloss.png
+  artifactKey: Guid(ffb0ae2ca2761e94aa5b413b498b4918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Shoes_Gloss.png using Guid(ffb0ae2ca2761e94aa5b413b498b4918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b94331b1220e95f2248ab0143c7abdbf') in 0.028149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Hair_Specular.png
+  artifactKey: Guid(f6b58ea368b84e846869a33f60bbc047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Hair_Specular.png using Guid(f6b58ea368b84e846869a33f60bbc047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4cf34bfe7638778c1eb9725cc6d1d8e') in 0.028724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Materials/Girl_2_Hair_Diffuse.mat
+  artifactKey: Guid(6c10e02af09d14d9995fd1dea0962574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_2_Hair_Diffuse.mat using Guid(6c10e02af09d14d9995fd1dea0962574) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a314f664235b86d8162ee7239702a7cc') in 0.022869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Shoes_Normal.png
+  artifactKey: Guid(6195612e717f94fc8b28292aed0909a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Shoes_Normal.png using Guid(6195612e717f94fc8b28292aed0909a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e9fef193949495e2159fa42689d9b41') in 0.032104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Body_Opacity.png
+  artifactKey: Guid(d13802f200c2b454c8c1974b30d30301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Body_Opacity.png using Guid(d13802f200c2b454c8c1974b30d30301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df801f8e618d27acd97198b00d8ffc24') in 0.038801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Materials/Girl_4_Shoes_Diffuse.mat
+  artifactKey: Guid(ba344ce33387a42e5ae8e1db5fdbfff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_4_Shoes_Diffuse.mat using Guid(ba344ce33387a42e5ae8e1db5fdbfff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1dd9c4e4ddd2091bd72f8cb5962effb') in 0.035707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Hair_Opacity.png
+  artifactKey: Guid(8ea9af73b19b8d945bb2ca9b68e0a072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Hair_Opacity.png using Guid(8ea9af73b19b8d945bb2ca9b68e0a072) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46d2ebe11c64f1a87667953fa0e34e40') in 0.027266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Top_Diffuse.png
+  artifactKey: Guid(654d3d2ce7b8ebc4297de4af07172537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Top_Diffuse.png using Guid(654d3d2ce7b8ebc4297de4af07172537) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '767486775bc6059b0654a0e9f8c56259') in 0.029785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/People/Materials/Girl_5_Top_Diffuse.mat
+  artifactKey: Guid(2fd5ecd5ab01240a8b4f4fb01085a088) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_5_Top_Diffuse.mat using Guid(2fd5ecd5ab01240a8b4f4fb01085a088) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b97ba01afddc3219a352cb25830b958c') in 0.021506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Bottom_Gloss.png
+  artifactKey: Guid(920f0a65713d9164495e0e433b403736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Bottom_Gloss.png using Guid(920f0a65713d9164495e0e433b403736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bd28579fd46008c0c1d627374d9d8c0') in 0.030845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Top_Normal.png
+  artifactKey: Guid(995e6138882d04d888cb4e036f1fa49a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Top_Normal.png using Guid(995e6138882d04d888cb4e036f1fa49a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01f2f1b1d9c776df45059a7eaf0aefd5') in 0.045345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/People/Materials/Male_2_Bottom_Diffuse.mat
+  artifactKey: Guid(0414cf07c52554589b6b81f677144276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Male_2_Bottom_Diffuse.mat using Guid(0414cf07c52554589b6b81f677144276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '966893e52a4681a2ac4302d6d2d6a54c') in 0.024959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Bottom_Opacity.png
+  artifactKey: Guid(c5095de18bcf0d44eb8110cf0a7ce1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Bottom_Opacity.png using Guid(c5095de18bcf0d44eb8110cf0a7ce1a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cf61c8c6906ba4513af2f5bb2ae223f') in 0.035960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Hat_Opacity.png
+  artifactKey: Guid(6325c188cf1ef05479470b0e6b8cc22c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Hat_Opacity.png using Guid(6325c188cf1ef05479470b0e6b8cc22c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51951c5e5db3896f677a3a32e930c52d') in 0.037952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Bottom_Specular.png
+  artifactKey: Guid(3e490f1bee8dc3f4eae5112781846717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Bottom_Specular.png using Guid(3e490f1bee8dc3f4eae5112781846717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d28924d4f844d108a86612c3560086d') in 0.037199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Body_Gloss.png
+  artifactKey: Guid(d733b2202d6377f419fae282b95a4a4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Body_Gloss.png using Guid(d733b2202d6377f419fae282b95a4a4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85500bd91ad29cb8b617231e61ec2ab5') in 0.028575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Materials/Regina_Shoes_Diffuse.mat
+  artifactKey: Guid(723d61ee94c8448b2a7f8381cf1970fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Regina_Shoes_Diffuse.mat using Guid(723d61ee94c8448b2a7f8381cf1970fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cde0497687ae83e07c7df5876afd9521') in 0.031794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Hair_Specular.png
+  artifactKey: Guid(710b8e094bfc344428b978c92eced749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Hair_Specular.png using Guid(710b8e094bfc344428b978c92eced749) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5502cf7a530c4480ecfe1b65a0d85e74') in 0.031054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Bottom_Opacity.png
+  artifactKey: Guid(167d47d7b4eb8f24a82b4207c932a3ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Bottom_Opacity.png using Guid(167d47d7b4eb8f24a82b4207c932a3ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cc690a7c836d8768b4b9d07c39e5529') in 0.027014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Hat_Diffuse.png
+  artifactKey: Guid(c30d20e423242ef43924c3ea22bb0d1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Hat_Diffuse.png using Guid(c30d20e423242ef43924c3ea22bb0d1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '579abd33c864e73059d81ed811a43b31') in 0.026699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Hat_Normal.png
+  artifactKey: Guid(c9607ff7bd13656459602f93f34a9c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Hat_Normal.png using Guid(c9607ff7bd13656459602f93f34a9c65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de3ccb3ab04e7b75ef78909c8cfb99da') in 0.033715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/Materials/Girl_3_Body_Diffuse.mat
+  artifactKey: Guid(e5fdad638f07848ba85b19fc48cf9541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_3_Body_Diffuse.mat using Guid(e5fdad638f07848ba85b19fc48cf9541) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ace2218e7cc678fef6026381bdf24669') in 0.018961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/People/Materials/Male_1_Body_Diffuse.mat
+  artifactKey: Guid(23ec8c579fc4e4085bf4ac95ea0f071e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Male_1_Body_Diffuse.mat using Guid(23ec8c579fc4e4085bf4ac95ea0f071e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8072a617a485635f20afe791c86b48a') in 0.024098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/Materials/Girl_5_Bottom_Diffuse.mat
+  artifactKey: Guid(81ee738d58b984b72bf809bb652ef028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_5_Bottom_Diffuse.mat using Guid(81ee738d58b984b72bf809bb652ef028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '415e0d4abbbd1c19e70d74a40521ad94') in 0.022273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/Materials/Girl_2_Body_Diffuse.mat
+  artifactKey: Guid(b69da119302bd4355b781d487f3f552b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_2_Body_Diffuse.mat using Guid(b69da119302bd4355b781d487f3f552b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cdd63e512cb290843842c1d3870f922') in 0.024372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Hat_Gloss.png
+  artifactKey: Guid(ab5e740cb08384c40939f7cc4c0985cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Hat_Gloss.png using Guid(ab5e740cb08384c40939f7cc4c0985cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06eb042e4432eddd9f8df6d8fc7c6f24') in 0.027797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Top_Diffuse.png
+  artifactKey: Guid(ab8512c8bd2b64d03b2cc65540f44dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Top_Diffuse.png using Guid(ab8512c8bd2b64d03b2cc65540f44dcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a659fd09ea0e4fd101b80ba1f45b1b34') in 0.031360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Shoes_Gloss.png
+  artifactKey: Guid(bfe3790d68a26df4da9e4044cdc8f2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Shoes_Gloss.png using Guid(bfe3790d68a26df4da9e4044cdc8f2d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36696f653c65d972ae827e1aacde02e8') in 0.028474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Specular.png
+  artifactKey: Guid(6b982206c65e4644abc8665448de010b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Specular.png using Guid(6b982206c65e4644abc8665448de010b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52304007140820957069a6a042d1b169') in 0.023791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/regina@Running.fbm/Regina_Hat_Normal.png
+  artifactKey: Guid(ef137b192c122df419bbb7c2c0b2eec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Running.fbm/Regina_Hat_Normal.png using Guid(ef137b192c122df419bbb7c2c0b2eec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ad1908ebfbd3ef3baa4ca647ebfa9a1') in 0.024514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Normal.png
+  artifactKey: Guid(f25760d88478c49e68646713fefe0c0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Normal.png using Guid(f25760d88478c49e68646713fefe0c0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '607ee589767bc733c8b048f9abab41e7') in 0.026235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Hair_Opacity.png
+  artifactKey: Guid(b460b7b019244104388f5036e1903721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Hair_Opacity.png using Guid(b460b7b019244104388f5036e1903721) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71623739d9810afdfe1c7ca7de6399ab') in 0.026271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Hat_Opacity.png
+  artifactKey: Guid(8092676d12079844b828d4c9f9b70940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Hat_Opacity.png using Guid(8092676d12079844b828d4c9f9b70940) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8dfa366c8818b2a8b7d7fc807a853fc') in 0.022681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/People/Materials/Male_3_Top_Diffuse.mat
+  artifactKey: Guid(d9965c80d6f054ff1945da6031188eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Male_3_Top_Diffuse.mat using Guid(d9965c80d6f054ff1945da6031188eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0cd1e04707dbdb7c98a314c94d3bd67d') in 0.025224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Opacity.png
+  artifactKey: Guid(33db8a07579656448a9bce59f9a06bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Hat_Opacity.png using Guid(33db8a07579656448a9bce59f9a06bdc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1906c5540466d935c6260701c0383d85') in 0.025074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/People/regina@Dwarf Idle.fbm/Regina_Body_Diffuse.png
+  artifactKey: Guid(5fefba3517b874e20a844ed3cde057e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Dwarf Idle.fbm/Regina_Body_Diffuse.png using Guid(5fefba3517b874e20a844ed3cde057e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb0d590ecb045746eaaf8ceaeadb4d96') in 0.026628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/People/Materials/Girl_5_Hair_Diffuse.mat
+  artifactKey: Guid(d33117fff18ff4e6f923472525f6d67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_5_Hair_Diffuse.mat using Guid(d33117fff18ff4e6f923472525f6d67e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2731da50015de55e01c5413d9e630e17') in 0.024023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/People/Materials/Girl_2_Hat_Diffuse.mat
+  artifactKey: Guid(37c3b39ddf7014c45afd4af5b6d05bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/Materials/Girl_2_Hat_Diffuse.mat using Guid(37c3b39ddf7014c45afd4af5b6d05bc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01ba198b85ae021613c5f31b3dd39b55') in 0.021319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/People/regina@Walking.fbm/Regina_Top_Opacity.png
+  artifactKey: Guid(6de7d842d16b5bb498f5de3bc4b66d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/People/regina@Walking.fbm/Regina_Top_Opacity.png using Guid(6de7d842d16b5bb498f5de3bc4b66d9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '900c199c4898e9b34d46f302920aef66') in 0.023828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3579.
+Memory consumption went from 73.3 MB to 73.3 MB.
+Total: 5.356000 ms (FindLiveObjects: 0.483200 ms CreateObjectMapping: 0.295900 ms MarkObjects: 4.541600 ms  DeleteObjects: 0.033700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3579.
+Memory consumption went from 73.6 MB to 73.6 MB.
+Total: 6.975700 ms (FindLiveObjects: 0.611900 ms CreateObjectMapping: 0.123700 ms MarkObjects: 6.203800 ms  DeleteObjects: 0.034100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
